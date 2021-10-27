@@ -127,10 +127,7 @@ function checking(icons) {
   });
 }
 
-const clockIcon = document.querySelector(".fa-clock");
-
 function addToWatchlist(event) {
-  clockIcon.classList.add("scale");
   const clickedIcon = event.target;
   console.log(clickedIcon);
 
