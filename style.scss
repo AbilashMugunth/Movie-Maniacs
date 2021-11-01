@@ -316,14 +316,18 @@ footer p {
 }
 
 @media (max-width: 468px) {
+  .nav {
+    flex-direction: column;
+  }
+
   .nav-title {
     font-size: 2.7rem;
     padding-top: 1.5rem;
   }
 
   .search {
-    width: 10rem;
-    padding: 0.3rem 0.4rem;
+    // width: 10rem;
+    // padding: 0.3rem 0.4rem;
   }
 
   #open-btn,
@@ -335,6 +339,10 @@ footer p {
 @media (max-width: 350px) {
   .nav-title {
     font-size: 2.3rem;
+  }
+
+  .movie {
+    width: 90vw;
   }
 
   #open-btn,
