@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
 
@@ -22,11 +22,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .nav {
@@ -37,10 +37,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 1rem;
 }
 
@@ -78,8 +78,8 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 2rem 5rem;
-  -ms-grid-columns: (minmax(20rem, 1fr))[2];
-      grid-template-columns: repeat(2, minmax(20rem, 1fr));
+  -ms-grid-columns: (minmax(20rem, 1fr)) [2];
+  grid-template-columns: repeat(2, minmax(20rem, 1fr));
   background-size: cover;
 }
 
@@ -88,8 +88,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 1rem;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   position: relative;
   background-color: #041c35;
 }
@@ -124,7 +126,7 @@ body {
 
 .fa-clock.scale {
   -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .date {
@@ -143,10 +145,10 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-left: 0.7rem;
   color: rgba(255, 255, 255, 0.819);
 }
@@ -156,8 +158,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .fa-star {
@@ -191,7 +193,7 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 85vw;
   height: 50vh;
   overflow: scroll;
@@ -200,14 +202,15 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   -webkit-animation-name: animatemodal;
-          animation-name: animatemodal;
+  animation-name: animatemodal;
   -webkit-animation-duration: 0.4s;
-          animation-duration: 0.4s;
+  animation-duration: 0.4s;
   position: relative;
   color: #fff;
 }
@@ -239,10 +242,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .modalMovieImg {
@@ -281,11 +284,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 footer p {
@@ -306,8 +309,8 @@ footer p {
 
 @media (max-width: 768px) {
   .container {
-    -ms-grid-columns: (minmax(20rem, 1fr))[1];
-        grid-template-columns: repeat(1, minmax(20rem, 1fr));
+    -ms-grid-columns: (minmax(20rem, 1fr)) [1];
+    grid-template-columns: repeat(1, minmax(20rem, 1fr));
   }
   .poster {
     width: 8rem;
@@ -328,7 +331,7 @@ footer p {
   }
   #modal {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -394,11 +397,11 @@ footer p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-transition: border 0.3s ease;
   transition: border 0.3s ease;
   background-color: #fff;
@@ -419,29 +422,30 @@ footer p {
 
 .label__checkbox:checked + .label__text .label__check {
   -webkit-animation: check 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
-          animation: check 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
+  animation: check 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
 }
 
 .label__checkbox:checked + .label__text .label__check .icon {
   opacity: 1;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   color: white;
   -webkit-text-stroke: 0;
-  -webkit-animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
-          animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
+  -webkit-animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1
+    forwards;
+  animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
 }
 
 @-webkit-keyframes icon {
   from {
     opacity: 0;
     -webkit-transform: scale(0.3);
-            transform: scale(0.3);
+    transform: scale(0.3);
   }
   to {
     opacity: 1;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -449,12 +453,12 @@ footer p {
   from {
     opacity: 0;
     -webkit-transform: scale(0.3);
-            transform: scale(0.3);
+    transform: scale(0.3);
   }
   to {
     opacity: 1;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
