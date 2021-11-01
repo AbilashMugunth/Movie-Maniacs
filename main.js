@@ -121,8 +121,25 @@ function insert(movieList) {
   checking(addToWatchlistIcons);
 }
 
+function toastNotification() {
+  Toastify({
+    text: "Added to watchlist",
+    duration: 1000,
+    gravity: "top", // `top` or `bottom`
+    position: "right", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      color: "#041c35",
+      background: "#F5C518",
+    },
+  }).showToast();
+}
+
 function checking(icons) {
   icons.forEach((icon) => {
+    icon.addEventListener("click", () => {
+      toastNotification();
+    });
     icon.addEventListener("click", addToWatchlist);
   });
 }
@@ -192,3 +209,5 @@ function removeModalMovie(watchedBtns) {
 }
 
 console.log(localStorage);
+
+/////////////////////////////////////////////////
