@@ -38,6 +38,10 @@ https://user-images.githubusercontent.com/90945323/140676941-f505d131-6b01-4180-
 <h2 id="scenario3">Adding to Watchlist</h2>
 
 
+https://user-images.githubusercontent.com/90945323/140677822-a16fa5ec-10e3-42d2-8955-98e286e63a5b.mp4
+
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- SCENARIO4 -->
