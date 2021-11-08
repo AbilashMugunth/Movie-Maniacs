@@ -30,7 +30,7 @@ It also displays the trending movies of the day and it updates everyday.
 
 <p>User can search any movies and get results</p>
 
-
+https://user-images.githubusercontent.com/90945323/140676941-f505d131-6b01-4180-9cc7-4515649e3972.mp4
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -42,5 +42,9 @@ It also displays the trending movies of the day and it updates everyday.
 
 <!-- SCENARIO4 -->
 <h2 id="scenario4">Removing Movie from Watchlist</h2>
+
+
+
+
 
 
