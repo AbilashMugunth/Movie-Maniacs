@@ -36,8 +36,8 @@ const searchTab = document.querySelector(".search");
 const searchBtn = document.querySelector(".searchbutton");
 const container = document.querySelector(".container");
 
-const trendingUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=75542ca7e7e28fbe66275047177d4cd2`;
-const searchUrl = `https://api.themoviedb.org/3/search/movie?api_key=75542ca7e7e28fbe66275047177d4cd2&query=`;
+const trendingUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=7c6e2a7b6880d711158c6baaec874bd3`;
+const searchUrl = `https://api.themoviedb.org/3/search/movie?api_key=7c6e2a7b6880d711158c6baaec874bd3&query=`;
 
 searchTab.addEventListener("keyup", function (event) {
   const string = searchTab.value;
@@ -163,14 +163,15 @@ function addToWatchlist(event) {
 
   // const key = modalMovieTitle;
   // const value = modalMovieImg;
+  localStorage.setItem("moive", modalMovieTitle);
 
-  // for (let i = 0; i < localStorage.length; i++) {
-  //   const key = localStorage.key(i);
-  //   const value = localStorage.getItem(key);
-  //   console.log(`${key} ${value}`);
-  // }
+  console.log(localStorage.length);
+  for (let i = 0; i < localStorage.length; i++) {
+    let key = localStorage.length[i];
+    console.log("key");
+  }
   addComponents(modalMovieImg, modalMovieTitle, modalMovieVote, infoContainer);
-  localStorage.setItem("movie", eachMovieBox);
+  // localStorage.setItem("movie", modalMovieTitle);
 
   //////////////////////////////////////////
 }
